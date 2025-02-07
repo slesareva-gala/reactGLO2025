@@ -28,10 +28,10 @@ class EmployeesAddForm extends Component {
 
         const { name, salary } = this.state
 
-        if (name) {
+        if (name.length > 1) {
             this.props.onAppend({ name, salary: +salary })
             this.clearState()
-        } else this.setState({ name: '' })
+        }
 
     }
 
