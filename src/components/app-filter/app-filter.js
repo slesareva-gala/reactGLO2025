@@ -1,4 +1,4 @@
-import "./app-filter.css";
+import "./app-filter.scss";
 
 const AppFilter = ({ filter, onChangeFilter }) => {
     const buttonsData = [

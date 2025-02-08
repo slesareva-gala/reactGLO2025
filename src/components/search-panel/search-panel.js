@@ -1,4 +1,4 @@
-import './search-panel.css';
+import './search-panel.scss';
 
 const SearchPanel = ({ search, onUpdateSearch }) => {
     return (
